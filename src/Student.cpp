@@ -1,6 +1,4 @@
 #include "Student.h"
-#include "xtra.h"
-#include <iostream>
 
 Student::Student(std::string nm, std::string yr, float g)
     : name(nm), year(yr), gpa(g)
@@ -27,4 +25,7 @@ void Student::display()
     std::cout << "GPA: " << gpa << std::endl;
 }
 
-
+void barf()
+{
+    std::cout << "hello" << std::endl;
+}

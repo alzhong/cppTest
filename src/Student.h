@@ -1,7 +1,12 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
+#include<iostream>
 #include<string>
+
+
+//void barf(){}
+
 
 class Student{
     public:
@@ -15,5 +20,6 @@ class Student{
         float gpa;
 };
 
+void barf();
 
 #endif

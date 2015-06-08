@@ -1,10 +1,12 @@
 #ifndef XTRA_H
 #define XTRA_H
 
-#include <iostream>
+#include "Student.h"
 
-void barf()
+void barfo()
 {
-    std::cout << "hello" << std::endl;
+    std::cout << "hello doggy" << std::endl;
 }
+
+
 #endif
