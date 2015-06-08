@@ -1,1 +1,5 @@
-curl -u USER https://api.github.com/user/repos -d '{ "name": "REPO" }'
+Smaller Reminder How to Add Repo's Through Terminal
+-url -u USER https://api.github.com/user/repos -d '{ "name": "REPO" }'
+
+src  contains sample program being made
+src2 contains thornton's example compiled using makefile
